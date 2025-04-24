@@ -23,6 +23,16 @@ This package also provides utilities for **health checks** of:
 
 ---
 
+## ✨ Decorators
+
+The library also includes powerful decorators to enhance fault tolerance:
+
+- `@Fallback()` – Define fallback logic for failed method executions.
+- `@CircuitBreaker()` – Protect services from cascading failures.
+- `@Retry()` – Automatically retry failed method calls with custom strategies.
+
+---
+
 ## 📦 Required Dependencies
 
 The following packages are **required** to use the core functionality:
